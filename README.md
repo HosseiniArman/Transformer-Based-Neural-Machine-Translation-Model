@@ -17,9 +17,14 @@ The model consists of:
 - **Multi-Head Self-Attention**: Each token in the sequence attends to every other token.
 - **Feed-Forward Networks**: Fully connected layers are used after attention blocks.
 - **Residual Connections and Layer Normalization**: Ensuring gradient stability and convergence.
+## Goal of the Project
+The goal of this project is to implement a Transformer-based model for sequence-to-sequence tasks, such as Neural Machine Translation (NMT). The model aims to translate input sequences into target sequences using self-attention and positional encoding mechanisms.
+
 ## Requirements
 
 To run the code, install the following dependencies:
 
 ```bash
 pip install tensorflow matplotlib transformers numpy
+
+
